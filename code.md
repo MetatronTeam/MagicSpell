@@ -53,6 +53,10 @@ player's projectiledmg 또는 player's projectiledamage 를 사용할 수 있다
 |player's [defper\|defenceper]|0|-100~100|double|add/subtract/set|수치범위내에 없을시 에러|
 |player's [lv\|level]|1|1~999|integer|add/subtract/set|수치범위내에 없을시 에러|
 |player's [exp\|experience]|0|0~100|doucle|add/subtract/set|수치범위내에 없을시 에러 (백분율로 수치 설정)|
+|player's [fly\|flymode]|0|0~1|boolean|set|set만 사용가능, 수치범위내에 없을시 0으로 인식|
+|player's [saveinv\|keepinv\|saveinventory\|keepinventory]|0|0~1|boolean|set|set만 사용가능, 수치범위내에 없을시 0으로 인식|
+|player's [armoric\|armoriconc\|armoriconcount]|0|0~20|integer|1당 0.5칸, 수치범위내에 없을시 에러|
+
 
 ```java
 //example
