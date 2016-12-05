@@ -15,12 +15,19 @@ start trigger
 ```
 명령어 시작전에는 발동조건 코드를 삽입할 수 있습니다. (필수는 아닙니다.)
 ```java
+//들고있는 아이템 코드
 itemid blaze_rod
+//들고있는 아이템 데미지
 itemdamage 0
+//소모할 아이템 코드
 itemcost blaze_rod
+//소모할 아이템 데미지
 itemcostdamage 0
+//소모할 아이템 개수
 itemcostcount 0
+//필요 플레이어 레벨
 playerlv 1
+//명령어 시작
 start trigger
 ```
 공백은 금지되어 있으며 한줄을 비워도 안됩니다.
