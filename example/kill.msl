@@ -1,0 +1,8 @@
+start magicspell-metatron
+itemid blaze_rod
+itemdmg 0
+itemcost no
+start trigger
+set player's health 0
+send 자살하였습니다.
+end magicspell-metatron
