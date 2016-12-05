@@ -39,8 +39,8 @@ end magicspell-metatron
 |명령어|디폴트값|수치범위|타입|사용여부|비고|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |player's health|20|0 ~ 20|integer|add/subtract/set|음수일시 에러|
-|player's movespeed|100|0~2147483647|integer|add/subtract/set|0이하일시 이동불가|
-
+|player's movespeed|100|-2147483648~2147483647|integer|add/subtract/set|0이하일시 이동불가|
+|player's projectile[dmg\|damage]|4|0~32767|short|add/subtract/set|음수일시 에러|
 ```java
 //example
 set player's health 1
