@@ -13,7 +13,7 @@ end magicspell-metatron
 ```java
 start trigger
 ```
-명령어 시작전에는 발동조건 코드를 삽입할 수 있습니다.
+명령어 시작전에는 발동조건 코드를 삽입할 수 있습니다. (필수는 아닙니다.)
 ```java
 itemid blaze_rod
 itemdamage 0
