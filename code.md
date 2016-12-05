@@ -16,7 +16,9 @@ start trigger
 명령어 시작전에는 발동조건 코드를 삽입할 수 있습니다.
 ```java
 itemid blaze_rod
+itemdamage 0
 itemcost blaze_rod
+itemcostdamage 0
 itemcostcount 0
 playerlv 1
 start trigger
