@@ -5,6 +5,10 @@
 ```java
 start magicspell-metatron
 ```
+파일 최하단에는 다음과 같은 코드가 있어야 합니다.
+```java
+end magicspell-metatron
+```
 공백은 금지되어 있으며 한줄을 비워도 안됩니다.
 ▼금지된 행동▼
 ```java
@@ -32,3 +36,14 @@ end magicspell-metatron
 ```
 
 #명령어들
+```java
+//플레이어 체력 0으로 설정
+set player's health 0
+//플레이어 체력 5감소
+subtract player's health 5
+//플레이어 체력 5증가
+add player's health 5
+//플레이어 이동속도 100으로설정 (기본값)
+set player's movespeed 100
+```
+등등이 있습니다.
