@@ -9,6 +9,18 @@ start magicspell-metatron
 ```java
 end magicspell-metatron
 ```
+명령어 시작전에는 다음과 같은 코드가 있어야 합니다.
+```java
+start trigger
+```
+명령어 시작전에는 발동조건 코드를 삽입할 수 있습니다.
+```java
+itemid blaze_rod
+itemcost blaze_rod
+itemcostcount 0
+playerlv 1
+start trigger
+```
 공백은 금지되어 있으며 한줄을 비워도 안됩니다.
 ▼금지된 행동▼
 ```java
