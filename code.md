@@ -49,6 +49,10 @@ player's projectiledmg 또는 player's projectiledamage 를 사용할 수 있다
 |player's [kc\|killcount]|0|0~Infinity|double|add/subtract/set|음수일시 비정상적인 동작가능|
 |player's [dc\|deathcount]|0|0~Infinity|double|add/subtract/set|음수일시 비정상적인 동작가능|
 |player's [ac\|assistcount]|0|0~Infinity|double|add/subtract/set|음수일시 비정상적인 동작가능|
+|player's [def\|defence]|0|-2147483648~2147483647|integer|add/subtract/set|음수일시 더많은 데미지를 입음|
+|player's [defper\|defenceper]|0|-100~100|double|add/subtract/set|수치범위내에 없을시 에러|
+|player's [lv\|level]|1|1~999|integer|add/subtract/set|수치범위내에 없을시 에러|
+|player's [exp\|experience]|0|0~100|doucle|add/subtract/set|수치범위내에 없을시 에러 (백분율로 수치 설정)|
 
 ```java
 //example
