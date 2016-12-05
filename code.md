@@ -26,12 +26,12 @@ end magicspell-metatron
 start magicspell-metatron//스팰시작
  
 ```
-단 줄 처음부터 작성했으면 상관이 없습니다.
+단 줄 처음부터 작성했으면 상관이 없습니다. (//주석만 가능)
 ▼가능한 행동▼
 ```java
 //스팰시작
 start magicspell-metatron
-#스팰끝
+//스팰끝
 end magicspell-metatron 
 ```
 
