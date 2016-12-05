@@ -36,5 +36,4 @@ end magicspell-metatron
 ```
 
 #명령어들
-
-
+https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
