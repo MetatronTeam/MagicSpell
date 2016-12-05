@@ -40,4 +40,10 @@ end magicspell-metatron
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |player's health|20|0 ~ 20|integer|add/subtract/set|
 |player's movespeed|100|0~2147483647|integer|add/subtract/set|
-등등이 있습니다.
+
+```java
+//example
+set player's health 1
+add player's health 1
+subtract player's health 1
+```
