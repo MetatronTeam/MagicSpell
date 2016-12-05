@@ -36,6 +36,8 @@ end magicspell-metatron
 ```
 
 #명령어들
-|명령어|수치범위|타입|사용여부|
-|:-----:|:-----:|:-----:|:-----:|
+|명령어|디폴트값|수치범위|타입|사용여부|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|player's health|20|0 ~ 20|integer|add/subtract/set|
+|player's movespeed|100|0~2147483647|integer|add/subtract/set|
 등등이 있습니다.
