@@ -1,7 +1,10 @@
 start magicspell-metatron
 itemid blaze_rod
-itemdmg 0
+itemdamage 0
+itemcost blaze_rod
+itemcostdamage 0
 itemcostcount 0
+playerlv 1
 start trigger
 set player's health 0
 send 자살하였습니다.
