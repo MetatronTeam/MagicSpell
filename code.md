@@ -30,3 +30,5 @@ start magicspell-metatron
 #스팰끝
 end magicspell-metatron 
 ```
+
+#명령어들
