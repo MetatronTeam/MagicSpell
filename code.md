@@ -36,14 +36,6 @@ end magicspell-metatron
 ```
 
 #명령어들
-```java
-//플레이어 체력 0으로 설정
-set player's health 0
-//플레이어 체력 5감소
-subtract player's health 5
-//플레이어 체력 5증가
-add player's health 5
-//플레이어 이동속도 100으로설정 (기본값)
-set player's movespeed 100
-```
+|명령어|수치범위|타입|사용여부|
+|:-----:|:-----:|:-----:|:-----:|
 등등이 있습니다.
