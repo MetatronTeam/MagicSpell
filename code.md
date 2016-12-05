@@ -36,11 +36,18 @@ end magicspell-metatron
 ```
 
 #명령어들
+
+player's projectile[dmg\|damage]는
+player's projectiledmg 또는 player's projectiledamage 를 사용할 수 있다는 말입니다.
 |명령어|디폴트값|수치범위|타입|사용여부|비고|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |player's health|20|0 ~ 20|integer|add/subtract/set|음수일시 에러|
 |player's movespeed|100|-2147483648~2147483647|integer|add/subtract/set|0이하일시 이동불가|
 |player's projectile[dmg\|damage]|4|0~32767|short|add/subtract/set|음수일시 에러|
+|player's attack[dmg\|damage]|1|0~32767|short|add/subtract/set|음수일시 에러|
+|player's [kc\|killcount]|0|0~Infinity|double|add/subtract/set|음수일시 비정상적인 동작가능|
+|player's [dc\|deathcount|0|0~Infinity|double|add/subtract/set|음수일시 비정상적인 동작가능|
+
 ```java
 //example
 set player's health 1
