@@ -16,8 +16,17 @@ start magicspell-metatron
 ```java
  start magicspell-metatron
 ```
+주석은 줄 처음부터 작성하지 않으면 안됩니다.
 ▼금지된 행동▼
 ```java
 start magicspell-metatron//스팰시작
  
+```
+단 줄 처음부터 작성했으면 상관이 없습니다.
+▼가능한 행동▼
+```java
+//스팰시작
+start magicspell-metatron
+#스팰끝
+end magicspell-metatron 
 ```
