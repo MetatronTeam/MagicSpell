@@ -6,7 +6,7 @@ Genisys 2.1.0 ~
 ClearSky 2.1.0 ~
 
 ##코드설명
-github.com/MetatronTeam/MagicSpell/code.md
+http://github.com/MetatronTeam/MagicSpell/code.md
 
 ##예제
-github.com/MetatronTeam/MagicSpell/example/
+http://github.com/MetatronTeam/MagicSpell/example/
