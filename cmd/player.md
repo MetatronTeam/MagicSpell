@@ -11,6 +11,7 @@ https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 set player's h[p|ealth] <amount>
 subtract player's h[p|ealth] <amount>
 add player's h[p|ealth] <amount>
+
 //최대체력 설정 (단, amount >= 1 and amount <= 2147483647, 1보다 작으면 에러)
 set player's maxh[p|ealth] <amount>
 subtract player's maxh[p|ealth] <amount>
@@ -22,4 +23,11 @@ add player's maxh[p|ealth] <amount>
 set player's move[spd|speed|ment] <amount>
 subtract player's move[spd|speed|ment] <amount>
 add player's move[spd|speed|ment] <amount>
+```
+###플레이어 킬카운터 관련 명령어
+```
+//킬카운트 설정 (단, amount >= 0, 0보다 작을시 에러)
+set player's k[c|illcount] <amount>
+subtract player's k[c|illcount] <amount>
+add player's k[c|illcount] <amount>
 ```
