@@ -30,15 +30,13 @@ https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 |drip_water|23|WaterDrip Particle|x/y/z|
 |drip_lava|24|LavaDrip Particle|x/y/z|
 |dust|25|Dust Particle|x/y/z/red/green/blue/alpha|
-|inchant|26|MobSpell Particle|x/y/z|
+|enchant|26|MobSpell Particle|x/y/z|
 |mob_spell|26|MobSpell Particle|x/y/z/red/green/blue/alpha|
 |instant_enchant|28|InstantEnchant Particle|x/y/z|
 |ink|29|Ink Particle|x/y/z|
 |rain_splash|31|RainSplash Particle|x/y/z|
 |angry_villager|32|AngryVillager Particle|x/y/z|
 |happy_villager|33|HappyVillager Particle|x/y/z|
-	const TYPE_ENCHANTMENT_TABLE = 34;
-	const TYPE_TRACKING_EMITTER = 35;
-	const TYPE_NOTE = 36;
-	const TYPE_CARROT = 38;
+|enchant_table|34|EnchantmentTable Particle|x/y/z|
 ###Command List
+
