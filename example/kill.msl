@@ -7,5 +7,5 @@ itemcostcount 0
 playerlv 1
 start trigger
 set player's health 0
-send 자살하였습니다.
+msg 자살하였습니다.
 end magicspell-metatron
