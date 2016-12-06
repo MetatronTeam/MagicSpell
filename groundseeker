@@ -1,0 +1,11 @@
+start magicspell-metatron
+itemid all
+itemdamage 0
+itemcost air
+itemcostdamage 0
+itemcostcount 0
+playerlv 1
+start trigger
+set radius 20 velY 3
+set radius 20 damage 15
+end magicspell-metatron
