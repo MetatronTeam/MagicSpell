@@ -23,15 +23,13 @@ https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 |huge_explode_seed|15|HugeExplodeSeed Particle|x/y/z|
 |mob_flame|16|MobFlame Particle|x/y/z|
 |heart|17|Heart Particle|x/y/z|
-	const TYPE_TERRAIN = 18;
-	const TYPE_SUSPENDED_TOWN = 19, TYPE_TOWN_AURA = 19;
-	const TYPE_PORTAL = 20;
-	const TYPE_SPLASH = 21, TYPE_WATER_SPLASH = 21;
-	const TYPE_WATER_WAKE = 22;
-	const TYPE_DRIP_WATER = 23;
-	const TYPE_DRIP_LAVA = 24;
-	const TYPE_FALLING_DUST = 25, TYPE_DUST = 25;
-	const TYPE_MOB_SPELL = 26;
+|terrain|18|Terrain Particle|x/y/z|
+|portal|20|Portal Particle|x/y/z|
+|water_splash|21|Splash Particle|x/y/z|
+|drip_water|23|WaterDrip Particle|x/y/z|
+|drip_lava|24|LavaDrip Particle|x/y/z|
+|dust|25|Dust Particle|x/y/z/r/g/b/a|
+|mob_spell|26|MobSpell Particle|x/y/z|
 	const TYPE_MOB_SPELL_AMBIENT = 27;
 	const TYPE_MOB_SPELL_INSTANTANEOUS = 28;
 	const TYPE_INK = 29;
