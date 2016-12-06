@@ -1,7 +1,7 @@
 start magicspell-metatron
-itemid blaze_rod
+itemid all
 itemdamage 0
-itemcost blaze_rod
+itemcost no
 itemcostdamage 0
 itemcostcount 0
 playerlv 1
