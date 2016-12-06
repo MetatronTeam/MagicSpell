@@ -24,19 +24,19 @@ https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 |mob_flame|16|MobFlame Particle|x/y/z|
 |heart|17|Heart Particle|x/y/z|
 |terrain|18|Terrain Particle|x/y/z|
+|spore|19|Spore Particle|x/y/z|
 |portal|20|Portal Particle|x/y/z|
 |water_splash|21|Splash Particle|x/y/z|
 |drip_water|23|WaterDrip Particle|x/y/z|
 |drip_lava|24|LavaDrip Particle|x/y/z|
-|dust|25|Dust Particle|x/y/z/r/g/b/a|
-|mob_spell|26|MobSpell Particle|x/y/z|
-	const TYPE_MOB_SPELL_AMBIENT = 27;
-	const TYPE_MOB_SPELL_INSTANTANEOUS = 28;
-	const TYPE_INK = 29;
-	const TYPE_SLIME = 30;
-	const TYPE_RAIN_SPLASH = 31;
-	const TYPE_VILLAGER_ANGRY = 32;
-	const TYPE_VILLAGER_HAPPY = 33;
+|dust|25|Dust Particle|x/y/z/red/green/blue/alpha|
+|inchant|26|MobSpell Particle|x/y/z|
+|mob_spell|26|MobSpell Particle|x/y/z/red/green/blue/alpha|
+|instant_enchant|28|InstantEnchant Particle|x/y/z|
+|ink|29|Ink Particle|x/y/z|
+|rain_splash|31|RainSplash Particle|x/y/z|
+|angry_villager|32|AngryVillager Particle|x/y/z|
+|happy_villager|33|HappyVillager Particle|x/y/z|
 	const TYPE_ENCHANTMENT_TABLE = 34;
 	const TYPE_TRACKING_EMITTER = 35;
 	const TYPE_NOTE = 36;
