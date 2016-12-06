@@ -39,4 +39,9 @@ https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 |happy_villager|33|HappyVillager Particle|x/y/z|
 |enchant_table|34|EnchantmentTable Particle|x/y/z|
 ###Command List
-
+```
+particle <value> <args...>
+//ex
+particle dust x y z r g b a
+particle 25 x y z r g b a
+```
