@@ -1,7 +1,4 @@
-#
-
-player's projectile[dmg\|damage]는
-player's projectiledmg 또는 player's projectiledamage 를 사용할 수 있다는 말입니다.
+#Commands
 
 ###Player
 https://github.com/MetatronTeam/MagicSpell/blob/master/cmd/player.md
