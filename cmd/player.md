@@ -30,4 +30,17 @@ add player's move[spd|speed|ment] <amount>
 set player's k[c|illcount] <amount>
 subtract player's k[c|illcount] <amount>
 add player's k[c|illcount] <amount>
+//데스카운트 설정 (단, amount >= 0, 0보다 작을시 에러)
+set player's d[c|eathcount] <amount>
+subtract player's d[c|eathcount] <amount>
+add player's d[c|eathcount] <amount>
+//어시스트카운트 설정 (단, amount >= 0, 0보다 작을시 에러)
+set player's a[c|ssistcount] <amount>
+subtract player's a[c|ssistcount] <amount>
+add player's a[c|ssistcount] <amount>
+```
+###플레이어 데미지관련 명령어
+```
+//원거리데미지 설정 (고정값, 0일시 off, amount < 0 일시 에러)
+set player's projectiledamage <amount>
 ```
