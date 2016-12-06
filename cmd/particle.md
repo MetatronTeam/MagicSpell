@@ -4,7 +4,7 @@
 https://github.com/MetatronTeam/MagicSpell/blob/master/command.md
 
 ###Default values
-|Value1|Value2|Particle name|args|
+|Value|Id|Particle name|args|
 |:----:|:----:|:----:|:----:|
 |bubble|1|Bubble Particle|x/y/z|
 |critical|2|Critical Particle|x/y/z|
